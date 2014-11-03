@@ -12,7 +12,7 @@ fileList = os.listdir(dirPath)
 for fileName in fileList:
  os.remove(dirPath+"/"+fileName)
 
-#create a dictionary of the webcam images to be retrieved of the structure {"webpage":"name to be saved as"}
+#create a dictionary of the webcam images to be retrieved in the format {"webpage":"name to be saved as"}
 images={"http://images.drivebc.ca/bchighwaycam/pub/cameras/17.jpg":"1 stanleypark causeway.jpg",\
 	"http://images.drivebc.ca/bchighwaycam/pub/cameras/179.jpg":"2 alicelake.jpg",\
 	"http://images.drivebc.ca/bchighwaycam/pub/cameras/4.jpg":"3 garibaldi.jpg",\
